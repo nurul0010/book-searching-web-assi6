@@ -28,7 +28,7 @@ const displayData = (result) => {
         document.getElementById('spinner').classList.add('d-none');
 
         const noResult = document.getElementById('no-result');
-        noResult.innerText = 'Sorry! No Result Found by';
+        noResult.innerText = 'Sorry! No Result Found..';
 
     }
     else {
